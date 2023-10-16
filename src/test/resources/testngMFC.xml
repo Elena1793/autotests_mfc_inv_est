@@ -2,10 +2,8 @@
 
 <suite name="MFC_sanityTests" verbose="1" >
     <test name="mfc" >
-        <classes>
-            <class name="app.execution.tests.mfc.LoginTests" />
-            <class name="app.execution.tests.mfc.WarehouseReceiveIn" />
-            <!--<class name="app.execution.tests.mfc.CreateFileTests" />
+        <classes>            
+            <class name="app.execution.tests.mfc.CreateFileTests" />
             <class name="app.execution.tests.mfc.QutationTests" />
             <class name="app.execution.tests.mfc.SurveyInventory" />
             <class name="app.execution.tests.mfc.Inventory" />
@@ -19,7 +17,7 @@
             <class name="app.execution.tests.mfc.OnSite" />
             <class name="app.execution.tests.mfc.Relo" />
             <class name="app.execution.tests.mfc.ShipmentsTests" />
-            <class name="app.execution.tests.mfc.CheckMenu" />-->
+            <class name="app.execution.tests.mfc.CheckMenu" />
 
         </classes>
     </test>
